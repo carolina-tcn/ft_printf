@@ -6,13 +6,13 @@
 /*   By: ctacconi <ctacconi@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/07 12:04:53 by ctacconi          #+#    #+#             */
-/*   Updated: 2024/02/09 18:10:50 by ctacconi         ###   ########.fr       */
+/*   Updated: 2024/02/10 18:22:41 by ctacconi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-//Funcion que printa un numero en hexadecimal
+//Funcion que printa un numero en hexadecimal en may o min
 void	ft_puthex(unsigned int num, char c, int *len)
 {
 	if (num < 0 && *len != -1)

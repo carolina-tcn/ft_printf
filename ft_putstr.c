@@ -6,12 +6,13 @@
 /*   By: ctacconi <ctacconi@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 17:41:17 by ctacconi          #+#    #+#             */
-/*   Updated: 2024/02/09 17:24:19 by ctacconi         ###   ########.fr       */
+/*   Updated: 2024/02/10 18:23:35 by ctacconi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
+//imprime una string
 void	ft_putstr(char *s, int *len)
 {
 	int	i;

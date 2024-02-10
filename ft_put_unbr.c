@@ -6,12 +6,13 @@
 /*   By: ctacconi <ctacconi@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/07 11:43:16 by ctacconi          #+#    #+#             */
-/*   Updated: 2024/02/09 16:29:30 by ctacconi         ###   ########.fr       */
+/*   Updated: 2024/02/10 18:22:17 by ctacconi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
+//imprimir un numero decimal sin signo
 static void	print(char c, int *len)
 {
 	if (write(1, &c, 1) == -1)

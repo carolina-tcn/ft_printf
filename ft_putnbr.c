@@ -6,12 +6,13 @@
 /*   By: ctacconi <ctacconi@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 22:28:46 by ctacconi          #+#    #+#             */
-/*   Updated: 2024/02/09 17:34:55 by ctacconi         ###   ########.fr       */
+/*   Updated: 2024/02/10 18:22:56 by ctacconi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
+//imprime un numero decimal
 void	ft_putnbr(int number, int *len)
 {
 	char	*num;

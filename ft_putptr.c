@@ -6,12 +6,13 @@
 /*   By: ctacconi <ctacconi@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/07 19:27:25 by ctacconi          #+#    #+#             */
-/*   Updated: 2024/02/09 20:06:26 by ctacconi         ###   ########.fr       */
+/*   Updated: 2024/02/10 18:23:14 by ctacconi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
+//imprime el argumento en formato hexadecimal
 static void	ft_printptr(unsigned long ptr, int *len)
 {
 	if (*len == -1)

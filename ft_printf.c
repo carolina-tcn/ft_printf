@@ -6,7 +6,7 @@
 /*   By: ctacconi <ctacconi@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/02 18:15:52 by ctacconi          #+#    #+#             */
-/*   Updated: 2024/02/09 20:01:36 by ctacconi         ###   ########.fr       */
+/*   Updated: 2024/02/10 18:37:53 by ctacconi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,15 +58,13 @@ int	ft_printf(char const *formato, ...)
 {
 	int	variable = 42;
 	int *ptr = &variable;
-	printf(" LEN:%d\n", ft_printf("Hola %s!, El numero es %d y la letra es %c, el formato es %%, %u, la direccion es %p", "Carolina", 42, 'h', -21474648, ptr));
-	printf(" LEN:%d\n", printf("Hola %s!, El numero es %d y la letra es %c, el formato es %%, %u, la direccion es %p", "Carolina", 42, 'h', -21474648, ptr));
+	printf(" LEN:%d\n", ft_printf("%s!, %d, %c", "Carolina", 42, 'h'));
+	printf(" LEN:%d\n", printf("%s!, %d, %c", "Carolina", 42, 'h'));
+	
+	printf(" LEN:%d\n", ft_printf("%%, %u, %p", -21474648, ptr));
+	printf(" LEN:%d\n", printf("%%, %u, %p", -21474648, ptr));
 
 	printf(" len:%d\n", printf("%p", ""));
 	printf(" len:%d\n", ft_printf("%p", ""));
 	return (0);
-}*/
-/*int main()
-{
-	ft_printf("ESTAS%\0SUSPENDIDA");
-	return 0;
 }*/

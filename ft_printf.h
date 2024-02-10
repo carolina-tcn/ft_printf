@@ -6,7 +6,7 @@
 /*   By: ctacconi <ctacconi@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/02 19:56:00 by ctacconi          #+#    #+#             */
-/*   Updated: 2024/02/09 17:29:06 by ctacconi         ###   ########.fr       */
+/*   Updated: 2024/02/10 19:05:52 by ctacconi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,6 @@
 # include "libft/libft.h"
 # include <stdarg.h>
 # include <unistd.h>
-# include <stdio.h>
 
 int		ft_printf(char const *formato, ...);
 void	ft_put_unbr(unsigned int n, int *len);
