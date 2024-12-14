@@ -1,4 +1,4 @@
-t_printf 🛠️🖋️
+ft_printf 🛠️🖋️
 
 Es una reimplementación de la función estándar printf() de la biblioteca C. 
 Este proyecto explora el manejo de funciones variádicas y la construcción de una herramienta versátil para la impresión de datos en diferentes formatos.
